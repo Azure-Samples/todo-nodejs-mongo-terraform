@@ -49,7 +49,7 @@ module "loganalytics" {
 # Deploy key vault
 # ------------------------------------------------------------------------------------------------------
 module "keyvault" {
-  source                   = "../../../../../../common/infra/terraform/core/security/keyvault"
+  source                   = "./modules/keyvault"
   location                 = var.location
   principal_id             = var.principal_id
   rg_name                  = azurerm_resource_group.rg.name
