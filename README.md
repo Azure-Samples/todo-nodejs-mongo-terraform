@@ -70,7 +70,7 @@ Here's a high level architecture diagram that illustrates these components. Noti
 
 !["Application architecture diagram"](assets/resources.png)
 
-> This template provisions resources to an Azure subscription that you will select upon provisioning them. Please refer to the [Pricing calculator for Microsoft Azure](https://azure.microsoft.com/pricing/calculator/) and, if needed, update the included Azure resource definitions found in `infra/main.bicep` to suit your needs.
+> This template provisions resources to an Azure subscription that you will select upon provisioning them. Please refer to the [Pricing calculator for Microsoft Azure](https://azure.microsoft.com/pricing/calculator/) and, if needed, update the included Azure resource definitions found in `infra/main.tf` to suit your needs.
 
 ### Application Code
 
